@@ -1,0 +1,20 @@
+{
+    "name": "martin/hotel",
+    "description": "Hotel",
+    "autoload": {
+        "psr-4": {
+            "Hotel\\": "./clases",
+            "Classes\\":"./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tinxo",
+            "email": "tinchoferrarigd@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
